@@ -31,6 +31,6 @@ public class PromotionPageDuplicate extends BasePage{
         field.get(4).sendKeys(phone);
     }
 
-
+// some code
 
 }
