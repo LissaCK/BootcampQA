@@ -7,16 +7,14 @@ import org.junit.Test;
 
 
 public class PromotionActionTest extends BaseTest{
-    private HomePage homePage;
+
 
 
     @Test
     public void testPromotionAction() {
 
-        homePage = new HomePage(driver);
         homePage.clickWalkFreeButton();
         PromotionPage promotionPage = new PromotionPage(driver);
-        User user = new User();
         promotionPage.inputEmailField(user.getEmail());
         promotionPage.inputPassword(user.getPassword());
         promotionPage.inputFirstName(user.getFirstName());

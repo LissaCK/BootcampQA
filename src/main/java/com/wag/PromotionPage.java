@@ -3,6 +3,7 @@ package com.wag;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
@@ -31,27 +32,40 @@ public class PromotionPage extends BasePage {
     @FindBy(css ="p.sc-gzVnrw.bMAZbm")
     private List<WebElement> confirmNotification;
 
+    @FindBy(css =".sc-bdVaJa.sc-gZMcBi.giglCC")
+    private List<WebElement> errorFields;
+
 
     public void inputEmailField(String email){
+        wait.until(ExpectedConditions.visibilityOfAllElements(emailField));
         emailField.sendKeys(email);
     }
 
+
     public void inputPassword(String password){
+        wait.until(ExpectedConditions.visibilityOfAllElements(passwordField));
+
         passwordField.sendKeys(password);
     }
 
+
     public void inputFirstName(String firstName){
+        wait.until(ExpectedConditions.visibilityOfAllElements(firstNameField));
         firstNameField.sendKeys(firstName);
     }
 
     public void inputLastName(String lastName){
+        wait.until(ExpectedConditions.visibilityOfAllElements(lastNameField));
         lastNameField.sendKeys(lastName);
     }
     public void inputPhone(String phoneNumber){
+
+        wait.until(ExpectedConditions.visibilityOfAllElements(phoneField));
         phoneField.sendKeys(phoneNumber);
     }
 
     public String clickNextButton(){
+        wait.until(ExpectedConditions.visibilityOfAllElements(nextButton));
         nextButton.click();
         String result = nextButton.getText();
         return result;
@@ -81,6 +95,11 @@ public class PromotionPage extends BasePage {
     public String getConfirmNotification(){
         String res = confirmNotification.get(1).getText();
         return res;
+    }
+
+    public String getErrorForEmailField(){
+        String error = errorFields.get(0).getText();
+        return error;
     }
 
 
