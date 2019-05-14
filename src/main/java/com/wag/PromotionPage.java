@@ -98,7 +98,31 @@ public class PromotionPage extends BasePage {
     }
 
     public String getErrorForEmailField(){
+        wait.until(ExpectedConditions.visibilityOfAllElements(emailField));
         String error = errorFields.get(0).getText();
+        return error;
+    }
+
+    public String getErrorForPasswordField(){
+        wait.until(ExpectedConditions.visibilityOfAllElements(passwordField));
+        String error = errorFields.get(1).getText();
+        return error;
+    }
+
+    public String getErrorForFirstNameField(){
+        wait.until(ExpectedConditions.visibilityOfAllElements(firstNameField));
+        String error = errorFields.get(2).getText();
+        return error;
+    }
+    public String getErrorForLastNameField(){
+        wait.until(ExpectedConditions.visibilityOfAllElements(lastNameField));
+        String error = errorFields.get(3).getText();
+        return error;
+    }
+
+    public String getErrorForPhoneField(){
+        wait.until(ExpectedConditions.visibilityOfAllElements(phoneField));
+        String error = errorFields.get(4).getText();
         return error;
     }
 

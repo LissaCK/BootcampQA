@@ -35,6 +35,9 @@ public class PromotionActionTest extends BaseTest{
         String notification = promotionPage.getConfirmNotification();
         Assert.assertEquals("Let's start with the basics", notification);
 
+        //String errorEmail = promotionPage.getErrorForEmailField();
+        //Assert.assertEquals("required", errorEmail);
+
 
     }
 
