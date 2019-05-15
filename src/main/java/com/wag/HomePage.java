@@ -10,6 +10,7 @@ public class HomePage extends  BasePage{
     public HomePage(WebDriver driver){
         super(driver);
     }
+
     @FindBy(css = ".sc-bdVaJa.sc-bwzfXH.jUXfpw button p")
     private WebElement walkFreeButton;
 

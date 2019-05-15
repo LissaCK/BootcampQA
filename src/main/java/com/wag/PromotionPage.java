@@ -35,37 +35,44 @@ public class PromotionPage extends BasePage {
     @FindBy(css =".sc-bdVaJa.sc-gZMcBi.giglCC")
     private List<WebElement> errorFields;
 
+    /*
+    [0] - error for email;
+    [1] - error for firstName
+    [2] - error for lastName
+    [3] - error for phone
+     */
+
 
     public void inputEmailField(String email){
-        wait.until(ExpectedConditions.visibilityOfAllElements(emailField));
+        wait.until(ExpectedConditions.elementToBeClickable(emailField));
         emailField.sendKeys(email);
     }
 
 
     public void inputPassword(String password){
-        wait.until(ExpectedConditions.visibilityOfAllElements(passwordField));
+        wait.until(ExpectedConditions.elementToBeClickable(passwordField));
 
         passwordField.sendKeys(password);
     }
 
 
     public void inputFirstName(String firstName){
-        wait.until(ExpectedConditions.visibilityOfAllElements(firstNameField));
+        wait.until(ExpectedConditions.elementToBeClickable(firstNameField));
         firstNameField.sendKeys(firstName);
     }
 
     public void inputLastName(String lastName){
-        wait.until(ExpectedConditions.visibilityOfAllElements(lastNameField));
+        wait.until(ExpectedConditions.elementToBeClickable(lastNameField));
         lastNameField.sendKeys(lastName);
     }
     public void inputPhone(String phoneNumber){
 
-        wait.until(ExpectedConditions.visibilityOfAllElements(phoneField));
+        wait.until(ExpectedConditions.elementToBeClickable(phoneField));
         phoneField.sendKeys(phoneNumber);
     }
 
     public String clickNextButton(){
-        wait.until(ExpectedConditions.visibilityOfAllElements(nextButton));
+        wait.until(ExpectedConditions.elementToBeClickable(nextButton));
         nextButton.click();
         String result = nextButton.getText();
         return result;
@@ -98,33 +105,46 @@ public class PromotionPage extends BasePage {
     }
 
     public String getErrorForEmailField(){
-        wait.until(ExpectedConditions.visibilityOfAllElements(emailField));
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(0)));
         String error = errorFields.get(0).getText();
         return error;
     }
 
-    public String getErrorForPasswordField(){
-        wait.until(ExpectedConditions.visibilityOfAllElements(passwordField));
+
+    public String getErrorForFirstNameField(){
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(1)));
         String error = errorFields.get(1).getText();
         return error;
     }
-
-    public String getErrorForFirstNameField(){
-        wait.until(ExpectedConditions.visibilityOfAllElements(firstNameField));
-        String error = errorFields.get(2).getText();
-        return error;
-    }
     public String getErrorForLastNameField(){
-        wait.until(ExpectedConditions.visibilityOfAllElements(lastNameField));
-        String error = errorFields.get(3).getText();
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(2)));
+        String error = errorFields.get(2).getText();
         return error;
     }
 
     public String getErrorForPhoneField(){
-        wait.until(ExpectedConditions.visibilityOfAllElements(phoneField));
-        String error = errorFields.get(4).getText();
+        wait.until(ExpectedConditions.visibilityOf(errorFields.get(3)));
+        String error = errorFields.get(3).getText();
         return error;
     }
+
+    public void clickEmailField(){
+        emailField.click();
+    }
+
+    public void clickPasswordField(){
+        passwordField.click();
+    }
+    public void clickFirstName(){
+        firstNameField.click();
+    }
+    public void clickLastField(){
+        lastNameField.click();
+    }
+    public void clickPhoneField(){
+        phoneField.click();
+    }
+
 
 
 }

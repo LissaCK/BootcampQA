@@ -1,20 +1,23 @@
 package com.wag;
 
 
-import com.wag.testData.User;
 import org.junit.Assert;
 import org.junit.Test;
 
 
 public class PromotionActionTest extends BaseTest{
+    private HomePage homePage;
+    private PromotionPage promotionPage;
 
 
 
     @Test
     public void testPromotionAction() {
+        homePage = new HomePage(driver);
 
-        homePage.clickWalkFreeButton();
-        PromotionPage promotionPage = new PromotionPage(driver);
+
+        promotionPage = homePage.clickWalkFreeButton();
+
         promotionPage.inputEmailField(user.getEmail());
         promotionPage.inputPassword(user.getPassword());
         promotionPage.inputFirstName(user.getFirstName());

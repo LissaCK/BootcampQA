@@ -1,6 +1,6 @@
 package com.wag;
 
-import com.wag.testData.User;
+import testData.User;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -12,7 +12,6 @@ public class BaseTest {
 
     protected WebDriver driver;
     protected User user;
-    protected HomePage homePage;
     protected WebDriverWait wait;
 
     @Before
@@ -24,7 +23,6 @@ public class BaseTest {
         String titleActual = driver.getTitle();
         Assert.assertEquals(titleExpected, titleActual);
         user = new User();
-        homePage = new HomePage(driver);
         wait = new WebDriverWait(driver, 10);
 
     }

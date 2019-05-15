@@ -1,4 +1,4 @@
-package com.wag.testData;
+package testData;
 
 public class User {
 
