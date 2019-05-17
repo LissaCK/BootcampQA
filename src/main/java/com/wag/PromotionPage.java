@@ -35,6 +35,7 @@ public class PromotionPage extends BasePage {
     @FindBy(css =".sc-bdVaJa.sc-gZMcBi.giglCC")
     private List<WebElement> errorFields;
 
+
     /*
     [0] - error for email;
     [1] - error for firstName
@@ -76,9 +77,9 @@ public class PromotionPage extends BasePage {
         nextButton.click();
         String result = nextButton.getText();
         return result;
-
-
     }
+
+    //проверка вводимых данных
     public String getEmail(){
      String res = emailField.getAttribute("value");
      return res;
@@ -144,6 +145,9 @@ public class PromotionPage extends BasePage {
     public void clickPhoneField(){
         phoneField.click();
     }
+
+
+
 
 
 
