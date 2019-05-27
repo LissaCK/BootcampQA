@@ -4,12 +4,9 @@
     <list default="true" id="d70e4e57-0757-4fae-9e5f-ebdd4c7ef89b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testData/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testData/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wag/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wag/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wag/PromotionPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wag/PromotionPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testData/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testData/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wag/PromotionErrorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wag/PromotionErrorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/wag/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/wag/BaseTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,46 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/PromotionActionTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/BecomeWalkerPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/IncorectEmailTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/LoginInvalidDataTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+            <state relative-caret-position="1173">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/testData/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="476">
               <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
               <folding>
                 <element signature="e#794#795#0" expanded="true" />
@@ -86,10 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="646">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,22 +59,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicate.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testData/UserWalker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="27" column="44" selection-start-line="24" selection-start-column="26" selection-end-line="27" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,11 +91,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="287">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/BecomeWalkerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/PromotionActionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,15 +160,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicute.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wag/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPageDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/PromotionActionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/PromotionErrorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testData/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/IncorectEmailTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wag/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/wag/LoginInvalidDataTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wag/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wag/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wag/BecomeWalkerPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wag/BecomeWalkerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testData/UserWalker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java" />
       </list>
     </option>
   </component>
@@ -185,10 +182,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="4030" />
-    <option name="width" value="1080" />
-    <option name="height" value="645" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="3832" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -196,7 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,6 +261,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,7 +284,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LoginInvalidDataTest">
+  <component name="RunManager" selected="JUnit.BecomeWalkerTest">
+    <configuration name="BecomeWalkerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wag" />
+      <option name="MAIN_CLASS_NAME" value="com.wag.BecomeWalkerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BecomeWalkerTest.testBecomeWalker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="firstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wag.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wag" />
+      <option name="MAIN_CLASS_NAME" value="com.wag.BecomeWalkerTest" />
+      <option name="METHOD_NAME" value="testBecomeWalker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IncorectEmailTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstProject" />
       <extension name="coverage">
@@ -317,37 +346,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PromotionActionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="firstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wag.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wag" />
-      <option name="MAIN_CLASS_NAME" value="com.wag.PromotionActionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PromotionActionTest.testPromotionAction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="firstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wag.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wag" />
-      <option name="MAIN_CLASS_NAME" value="com.wag.PromotionActionTest" />
-      <option name="METHOD_NAME" value="testPromotionAction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PromotionErrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="firstProject" />
       <extension name="coverage">
@@ -365,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BecomeWalkerTest" />
+        <item itemvalue="JUnit.BecomeWalkerTest.testBecomeWalker" />
         <item itemvalue="JUnit.LoginInvalidDataTest" />
         <item itemvalue="JUnit.IncorectEmailTest" />
         <item itemvalue="JUnit.PromotionErrorTest" />
-        <item itemvalue="JUnit.PromotionActionTest" />
-        <item itemvalue="JUnit.PromotionActionTest.testPromotionAction" />
       </list>
     </recent_temporary>
   </component>
@@ -387,42 +385,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 01h 47m 14s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 20h 02m 39s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 02h 16m 20s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 20h 03m 12s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 02h 23m 39s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 20h 04m 58s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 02h 24m 28s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 20h 08m 15s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 11h 27m 20s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 20h 09m 50s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 22h 40m 06s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 22h 27m 12s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 22h 40m 46s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 22h 28m 17s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 22h 42m 08s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest_testBecomeWalker - 2019.05.19 at 22h 30m 29s.xml">
+      <configuration name="BecomeWalkerTest.testBecomeWalker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 22h 43m 54s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 22h 35m 43s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LoginInvalidDataTest - 2019.05.16 at 22h 44m 51s.xml">
-      <configuration name="LoginInvalidDataTest" configurationId="JUnit" />
+    <history-entry file="BecomeWalkerTest - 2019.05.19 at 22h 46m 41s.xml">
+      <configuration name="BecomeWalkerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3832" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="3832" y="-8" width="1456" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22851002" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25716332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -458,51 +456,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/PromotionErrorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/PromotionActionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="54" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/IncorectEmailTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testData/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#794#795#0" expanded="true" />
-            <element signature="e#830#831#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -519,6 +476,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/PromotionErrorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/LoginInvalidDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/BecomeWalkerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testData/UserWalker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="44" selection-start-line="24" selection-start-column="26" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -529,40 +543,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/BecomeWalkerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/PromotionPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/PromotionActionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testData/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wag/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/wag/LoginInvalidDataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="287">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

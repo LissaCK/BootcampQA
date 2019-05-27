@@ -19,6 +19,9 @@ public class HomePage extends  BasePage{
     @FindBy(css = ".sc-EHOje.hjXGpR")
     private List<WebElement> loginButton;
 
+    @FindBy(css = ".sc-EHOje.cWxJHM")
+    private WebElement becomeWalkerButton;
+
     public  PromotionPage clickWalkFreeButton(){
            wait.until(ExpectedConditions.elementToBeClickable(walkFreeButton));
            walkFreeButton.click();
@@ -29,6 +32,12 @@ public class HomePage extends  BasePage{
         wait.until((ExpectedConditions.elementToBeClickable(loginButton.get(3))));
         loginButton.get(3).click();
         return new LoginPage(driver);
+    }
+
+    public BecomeWalkerPage clickBecomeWalkerButton(){
+        wait.until(ExpectedConditions.elementToBeClickable(becomeWalkerButton));
+        becomeWalkerButton.click();
+        return new BecomeWalkerPage(driver);
     }
 
 

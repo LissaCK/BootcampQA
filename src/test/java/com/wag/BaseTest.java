@@ -7,11 +7,13 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import testData.UserWalker;
 
 public class BaseTest {
 
     protected WebDriver driver;
     protected User user;
+    protected UserWalker userWalker;
     protected WebDriverWait wait;
 
     @Before
@@ -23,6 +25,7 @@ public class BaseTest {
         String titleActual = driver.getTitle();
         Assert.assertEquals(titleExpected, titleActual);
         user = new User();
+        userWalker = new UserWalker();
         wait = new WebDriverWait(driver, 10);
 
     }
